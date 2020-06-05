@@ -13,7 +13,9 @@ class Product {
         $this->price = $_price;
     }
 
+    // Methods
     public function printInfos() {
-        return $this->name . ' ' . '€' . $this->price;
+        return "Prezzo: €$this->price <br>
+            Categoria: $this->category";
     }
 }
